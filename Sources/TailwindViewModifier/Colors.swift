@@ -8,145 +8,145 @@
 #if canImport(SwiftUI)
     import SwiftUI
 
-    var red: Red { Red() }
-    struct Red: ViewModifier {
-        func body(content: Content) -> some View {
+    public var red: Red { Red() }
+    public struct Red: ViewModifier {
+        public func body(content: Content) -> some View {
             content
                 .foregroundStyle(Color.red)
         }
     }
 
-    var orange: Orange { Orange() }
-    struct Orange: ViewModifier {
-        func body(content: Content) -> some View {
+    public var orange: Orange { Orange() }
+    public struct Orange: ViewModifier {
+        public func body(content: Content) -> some View {
             content
                 .foregroundStyle(Color.orange)
         }
     }
 
-    var yellow: Yellow { Yellow() }
-    struct Yellow: ViewModifier {
-        func body(content: Content) -> some View {
+    public var yellow: Yellow { Yellow() }
+    public struct Yellow: ViewModifier {
+        public func body(content: Content) -> some View {
             content
                 .foregroundStyle(Color.yellow)
         }
     }
 
-    var green: Green { Green() }
-    struct Green: ViewModifier {
-        func body(content: Content) -> some View {
+    public var green: Green { Green() }
+    public struct Green: ViewModifier {
+        public func body(content: Content) -> some View {
             content
                 .foregroundStyle(Color.green)
         }
     }
 
-    var mint: Mint { Mint() }
-    struct Mint: ViewModifier {
-        func body(content: Content) -> some View {
+    public var mint: Mint { Mint() }
+    public struct Mint: ViewModifier {
+        public func body(content: Content) -> some View {
             content
                 .foregroundStyle(Color.mint)
         }
     }
 
-    var teal: Teal { Teal() }
-    struct Teal: ViewModifier {
-        func body(content: Content) -> some View {
+    public var teal: Teal { Teal() }
+    public struct Teal: ViewModifier {
+        public func body(content: Content) -> some View {
             content
                 .foregroundStyle(Color.teal)
         }
     }
 
-    var cyan: Cyan { Cyan() }
-    struct Cyan: ViewModifier {
-        func body(content: Content) -> some View {
+    public var cyan: Cyan { Cyan() }
+    public struct Cyan: ViewModifier {
+        public func body(content: Content) -> some View {
             content
                 .foregroundStyle(Color.cyan)
         }
     }
 
-    var blue: Blue { Blue() }
-    struct Blue: ViewModifier {
-        func body(content: Content) -> some View {
+    public var blue: Blue { Blue() }
+    public struct Blue: ViewModifier {
+        public func body(content: Content) -> some View {
             content
                 .foregroundStyle(Color.blue)
         }
     }
 
-    var indigo: Indigo { Indigo() }
-    struct Indigo: ViewModifier {
-        func body(content: Content) -> some View {
+    public var indigo: Indigo { Indigo() }
+    public struct Indigo: ViewModifier {
+        public func body(content: Content) -> some View {
             content
                 .foregroundStyle(Color.indigo)
         }
     }
 
-    var purple: Purple { Purple() }
-    struct Purple: ViewModifier {
-        func body(content: Content) -> some View {
+    public var purple: Purple { Purple() }
+    public struct Purple: ViewModifier {
+        public func body(content: Content) -> some View {
             content
                 .foregroundStyle(Color.purple)
         }
     }
 
-    var pink: Pink { Pink() }
-    struct Pink: ViewModifier {
-        func body(content: Content) -> some View {
+    public var pink: Pink { Pink() }
+    public struct Pink: ViewModifier {
+        public func body(content: Content) -> some View {
             content
                 .foregroundStyle(Color.pink)
         }
     }
 
-    var brown: Brown { Brown() }
-    struct Brown: ViewModifier {
-        func body(content: Content) -> some View {
+    public var brown: Brown { Brown() }
+    public struct Brown: ViewModifier {
+        public func body(content: Content) -> some View {
             content
                 .foregroundStyle(Color.brown)
         }
     }
 
-    var white: White { White() }
-    struct White: ViewModifier {
-        func body(content: Content) -> some View {
+    public var white: White { White() }
+    public struct White: ViewModifier {
+        public func body(content: Content) -> some View {
             content
                 .foregroundStyle(Color.white)
         }
     }
 
-    var gray: Gray { Gray() }
-    struct Gray: ViewModifier {
-        func body(content: Content) -> some View {
+    public var gray: Gray { Gray() }
+    public struct Gray: ViewModifier {
+        public func body(content: Content) -> some View {
             content
                 .foregroundStyle(Color.gray)
         }
     }
 
-    var black: Black { Black() }
-    struct Black: ViewModifier {
-        func body(content: Content) -> some View {
+    public var black: Black { Black() }
+    public struct Black: ViewModifier {
+        public func body(content: Content) -> some View {
             content
                 .foregroundStyle(Color.black)
         }
     }
 
-    var clear: Clear { Clear() }
-    struct Clear: ViewModifier {
-        func body(content: Content) -> some View {
+    public var clear: Clear { Clear() }
+    public struct Clear: ViewModifier {
+        public func body(content: Content) -> some View {
             content
                 .foregroundStyle(Color.clear)
         }
     }
 
-    var primary: Primary { Primary() }
-    struct Primary: ViewModifier {
-        func body(content: Content) -> some View {
+    public var primary: Primary { Primary() }
+    public struct Primary: ViewModifier {
+        public func body(content: Content) -> some View {
             content
                 .foregroundStyle(Color.primary)
         }
     }
 
-    var secondary: Secondary { Secondary() }
-    struct Secondary: ViewModifier {
-        func body(content: Content) -> some View {
+    public var secondary: Secondary { Secondary() }
+    public struct Secondary: ViewModifier {
+        public func body(content: Content) -> some View {
             content
                 .foregroundStyle(Color.secondary)
         }
