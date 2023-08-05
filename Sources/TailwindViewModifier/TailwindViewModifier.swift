@@ -1,11 +1,9 @@
 // The Swift Programming Language
 // https://docs.swift.org/swift-book
 
-
 #if canImport(SwiftUI)
-import SwiftUI
-
-    extension View {
+    import SwiftUI
+    public extension View {
         func m
         <C1: ViewModifier>(_ c1: C1) -> some View {
             return modifier(c1)
@@ -258,8 +256,6 @@ import SwiftUI
     }
 
 #endif
-
-
 
 func asdfasdf() -> String {
     return Array(1 ... 50).reduce(into: "") { partialResult, v in
